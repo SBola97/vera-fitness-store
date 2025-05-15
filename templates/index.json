@@ -1,0 +1,150 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consigue todos nuestro productos",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Compra ahora",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/logotipo.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "ambient",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "rich_text_Cqk7pL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YfdGF8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bienvenido a Vera Fitness",
+            "heading_size": "h1"
+          }
+        },
+        "text_V9xamx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aquí no creemos en cuerpos perfectos, sino en cuerpos reales. En fuerza que se construye día a día, en cada repetición, en cada paso hacia tu mejor versión. Ya sea que estés comenzando tu camino en el fitness o llevándolo al siguiente nivel, en Vera encontrarás productos pensados para apoyarte, inspirarte y acompañarte con autenticidad.<br/>Porque lo real es lo que cuenta.<br/><br/>¡Gracias por entrenar con nosotros!<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfdGF8",
+        "text_V9xamx"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Novedades",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Fgg3yL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qL7rd6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra historia, tu fuerza",
+            "heading_size": "h1"
+          }
+        },
+        "text_e3WCzz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qL7rd6",
+        "text_e3WCzz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text_Cqk7pL",
+    "featured_collection",
+    "rich_text_Fgg3yL"
+  ]
+}
