@@ -29,18 +29,15 @@
   .rich-text__wrapper--right {
     justify-content: flex-end;
   }
-}
 
-@media screen and (max-width: 749px) {
   .rich-text__blocks {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 65rem;
   }
 }
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    max-width: 100%;
   }
 }
 
