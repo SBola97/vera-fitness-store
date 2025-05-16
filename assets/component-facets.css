@@ -104,7 +104,7 @@
 }
 
 .facet-filters__sort {
-  background-color: transparent;
+  background-color: #242833;
   border: 0;
   border-radius: 0;
   font-size: 1.4rem;
@@ -1086,7 +1086,7 @@ input.mobile-facets__checkbox {
 }
 
 .mobile-facets__sort .select__select {
-  background-color: transparent;
+  background-color: #242833;
   border-radius: 0;
   box-shadow: none;
   filter: none;
