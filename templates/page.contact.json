@@ -11,34 +11,10 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_QHGeiF": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4a96ct": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contacto",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4a96ct"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12,
+        "color_scheme": ""
       }
     },
     "form": {
@@ -54,7 +30,6 @@
   },
   "order": [
     "main",
-    "rich_text_QHGeiF",
     "form"
   ]
 }
