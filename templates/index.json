@@ -12,13 +12,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Consigue todos nuestro productos",
-            "heading_size": "h1"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -32,7 +25,6 @@
         }
       },
       "block_order": [
-        "heading",
         "button"
       ],
       "settings": {
