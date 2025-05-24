@@ -28,10 +28,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/logotipo.jpg",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/Logo-Eslogan.png",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
@@ -73,35 +73,52 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_Fgg3yL": {
-      "type": "rich-text",
+    "collection_list_HMhzrN": {
+      "type": "collection-list",
       "blocks": {
-        "heading_qL7rd6": {
-          "type": "heading",
+        "featured_collection_tMgpGa": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "Nuestra historia, tu fuerza",
-            "heading_size": "h1"
+            "collection": ""
           }
         },
-        "text_e3WCzz": {
-          "type": "text",
+        "featured_collection_cpjWgh": {
+          "type": "featured_collection",
           "settings": {
-            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>"
+            "collection": ""
+          }
+        },
+        "featured_collection_pNVjYF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_CfNMP3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "heading_qL7rd6",
-        "text_e3WCzz"
+        "featured_collection_tMgpGa",
+        "featured_collection_cpjWgh",
+        "featured_collection_pNVjYF",
+        "featured_collection_CfNMP3"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "<strong>Colecciones</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_top_products_LD9MLz": {
@@ -143,11 +160,43 @@
         "title_alignment": "center",
         "color_scheme": ""
       }
+    },
+    "rich_text_Fgg3yL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qL7rd6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra historia, tu fuerza",
+            "heading_size": "h1"
+          }
+        },
+        "text_e3WCzz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qL7rd6",
+        "text_e3WCzz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text_Cqk7pL",
+    "collection_list_HMhzrN",
     "featured_top_products_LD9MLz",
     "rich_text_Fgg3yL"
   ]
