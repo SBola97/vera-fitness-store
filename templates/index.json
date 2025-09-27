@@ -28,14 +28,14 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Logo-Eslogan.png",
+        "image": "shopify://shop_images/VERA_FITNESS_Slogan.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false

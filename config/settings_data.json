@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Logo.png",
-    "logo_width": 170,
-    "favicon": "shopify://shop_images/Favicon_bf83ca54-cfcd-44bb-ac63-d5b1672df8b7.png",
+    "logo": "shopify://shop_images/VERA_FITNESS_Logo-removebg-preview.png",
+    "logo_width": 190,
+    "favicon": "shopify://shop_images/VERA_FITNESSS_Favicon-2.png",
     "type_header_font": "inter_n4",
     "heading_scale": 100,
     "type_body_font": "inter_n4",
@@ -143,6 +143,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "13669795325273674392": {
+        "type": "shopify://apps/releasit-cod-form/blocks/app-embed/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -168,7 +175,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#1b232d",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -184,7 +191,7 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#121212",
-          "secondary_button_label": "#334fb4",
+          "secondary_button_label": "#0066cc",
           "shadow": "#121212"
         }
       },
