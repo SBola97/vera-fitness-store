@@ -5,11 +5,7 @@
     {% endif %}
     {% for block in section.blocks %}
       {% assign is_reverse = forloop.index | modulo: 2 %}
-      {% assign product = block.settings.product %}
-      {% assign current_title = block.settings.title %}
-      {% if block.settings.title == "Product name" and product != blank %}
-        {% assign current_title = product.title %}
-      {% endif %}
+      {% assign product = all_products[block.settings.product] %}
       <div class="featured-item" {{ block.shopify_attributes }}>
         <div class="featured-grid {% if is_reverse == 0 %}featured-grid-reverse{% endif %}">
           <div class="featured-image-container">
@@ -27,10 +23,14 @@
             {% endif %}
           </div>
           <div class="featured-content">
-            <h3 class="title">{{ current_title | escape }}</h3>
+            {% if block.settings.title == blank or block.settings.title == "Product name" or block.settings.title == "Nombre del producto" %}
+              <h3 class="title">{{ product.title }}</h3>
+            {% else %}
+              <h3 class="title">{{ block.settings.title | escape }}</h3>
+            {% endif %}
             <a href="{{ product.url }}" class="button">
               {{ block.settings.button_label | escape }}
-            </a>
+            </a>  
           </div>
         </div>
       </div>

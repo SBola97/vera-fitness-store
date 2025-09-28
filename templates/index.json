@@ -79,25 +79,25 @@
         "featured_collection_tMgpGa": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ropa-deportiva"
           }
         },
         "featured_collection_cpjWgh": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ropa-deportiva-mujer"
           }
         },
         "featured_collection_pNVjYF": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "equipamiento"
           }
         },
         "featured_collection_CfNMP3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "suplementos"
           }
         }
       },
@@ -127,7 +127,7 @@
         "featured_item_GgEwWL": {
           "type": "featured_item",
           "settings": {
-            "product": "new-winter-mens-hat-outdoor-ear-protection-warm-knitted-cap-with-windproof-visor-thick-bicycle-scarf-cap-for-men",
+            "product": "guantes-unisex-de-levantamiento-y-ciclismo-media-mano",
             "title": "Product name",
             "button_label": "COMPRAR"
           }
@@ -135,7 +135,7 @@
         "featured_item_raAem8": {
           "type": "featured_item",
           "settings": {
-            "product": "sauna-suit-for-women",
+            "product": "auriculares-bluetooth-tws-cancelacion-de-ruido",
             "title": "Product name",
             "button_label": "COMPRAR"
           }
@@ -143,7 +143,7 @@
         "featured_item_PMJmAE": {
           "type": "featured_item",
           "settings": {
-            "product": "womens-multi-purpose-sports-bag-waterproof-with-shoe-pocket-for-yoga-gym-and-travel",
+            "product": "musera-sport-minifalda-deportiva",
             "title": "Product name",
             "button_label": "COMPRAR"
           }
