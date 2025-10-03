@@ -28,9 +28,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/VERA_FITNESS_Slogan.png",
+        "image": "shopify://shop_images/arm-back-muscles.jpg",
+        "image_2": "shopify://shop_images/woman-lifts-free-weights.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
@@ -48,11 +49,12 @@
           "type": "heading",
           "settings": {
             "heading": "Bienvenido a Vera Fitness",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_V9xamx": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Aquí no creemos en cuerpos perfectos, sino en cuerpos reales. En fuerza que se construye día a día, en cada repetición, en cada paso hacia tu mejor versión. Ya sea que estés comenzando tu camino en el fitness o llevándolo al siguiente nivel, en Vera encontrarás productos pensados para apoyarte, inspirarte y acompañarte con autenticidad.<br/>Porque lo real es lo que cuenta.<br/><br/>¡Gracias por entrenar con nosotros!<br/><br/></p>"
           }
@@ -69,8 +71,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "padding_top": 44,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 0
       }
     },
     "collection_list_HMhzrN": {
@@ -121,13 +123,45 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_MYtrYj": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_889W6M": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Deportes de contacto",
+            "button_link_1": "shopify://collections/deportes-de-contacto",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "buttons_889W6M"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/men-8151667.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "featured_top_products_LD9MLz": {
       "type": "featured-top-products",
       "blocks": {
         "featured_item_GgEwWL": {
           "type": "featured_item",
           "settings": {
-            "product": "guantes-unisex-de-levantamiento-y-ciclismo-media-mano",
+            "product": "conjunto-deportivo-de-verano-mujer-top-falda-short",
             "title": "Product name",
             "button_label": "COMPRAR"
           }
@@ -135,7 +169,7 @@
         "featured_item_raAem8": {
           "type": "featured_item",
           "settings": {
-            "product": "auriculares-bluetooth-tws-cancelacion-de-ruido",
+            "product": "auriculares-inalambricos-2025-sport-business",
             "title": "Product name",
             "button_label": "COMPRAR"
           }
@@ -158,30 +192,50 @@
       "settings": {
         "title": "Productos destacados",
         "title_alignment": "center",
-        "color_scheme": ""
+        "color_scheme": "scheme-4"
       }
     },
-    "rich_text_Fgg3yL": {
-      "type": "rich-text",
+    "image_with_text_Y3RJDH": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_qL7rd6": {
+        "heading_EDd9GQ": {
           "type": "heading",
           "settings": {
             "heading": "Nuestra historia, tu fuerza",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
-        "text_e3WCzz": {
+        "text_PEpiCH": {
           "type": "text",
           "settings": {
-            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>"
+            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_qL7rd6",
-        "text_e3WCzz"
+        "heading_EDd9GQ",
+        "text_PEpiCH"
       ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/VERA_FITNESS_Slogan.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Fgg3yL": {
+      "type": "rich-text",
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -197,7 +251,9 @@
     "image_banner",
     "rich_text_Cqk7pL",
     "collection_list_HMhzrN",
+    "image_banner_MYtrYj",
     "featured_top_products_LD9MLz",
+    "image_with_text_Y3RJDH",
     "rich_text_Fgg3yL"
   ]
 }
