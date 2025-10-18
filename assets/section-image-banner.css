@@ -522,3 +522,29 @@
     top: 6rem;
   }
 }
+
+@media screen and (max-width: 749px) {
+  #Banner-template--17924750672022__image_banner .banner__media:nth-child(2) {
+    display: none !important;
+  }
+
+  #Banner-template--17924750672022__image_banner .banner__media:nth-child(1) {
+    display: block !important;
+  }
+
+  #Banner-template--17924750672022__image_banner .banner__media {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  #Banner-template--17924750672022__image_banner .banner__media img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: cover !important;
+  }
+
+  .banner--small:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
+      min-height: 25rem;
+  }
+}

@@ -105,11 +105,29 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1759717039ab935f50": {
+      "type": "apps",
+      "blocks": {
+        "ali_reviews_widget_box_Yq7VWE": {
+          "type": "shopify://apps/ali-reviews/blocks/widget-box/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "ali_reviews_widget_box_Yq7VWE"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "174952072238660eb8"
+    "174952072238660eb8",
+    "1759717039ab935f50"
   ]
 }

@@ -219,7 +219,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/VERA_FITNESS_Slogan.png",
+        "image": "shopify://shop_images/VERA_FITNESS_Slogan-removebg-preview.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
