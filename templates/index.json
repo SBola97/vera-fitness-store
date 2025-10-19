@@ -48,8 +48,8 @@
         "heading_YfdGF8": {
           "type": "heading",
           "settings": {
-            "heading": "Bienvenido a Vera Fitness",
-            "heading_size": "h2"
+            "heading": "<strong>Bienvenido a Vera Fitness</strong>",
+            "heading_size": "h1"
           }
         },
         "text_V9xamx": {

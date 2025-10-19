@@ -389,6 +389,19 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .image-with-text__media.image-with-text__media--adapt {
+    padding-bottom: 65% !important;
+  }
+
+  .image-with-text__content {
+    align-items: center !important;
+    padding: 1.2rem 1.75rem !important;
+  }
+
+  .image-with-text__text {
+    text-align: center !important;
+  }
 }
 
 @media screen and (min-width: 750px) {
