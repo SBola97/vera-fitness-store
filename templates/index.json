@@ -146,10 +146,10 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -163,7 +163,7 @@
           "settings": {
             "product": "conjunto-deportivo-de-verano-mujer-top-falda-short",
             "title": "Product name",
-            "button_label": "COMPRAR"
+            "button_label": "Comprar"
           }
         },
         "featured_item_raAem8": {
@@ -171,7 +171,7 @@
           "settings": {
             "product": "auriculares-inalambricos-2025-sport-business",
             "title": "Product name",
-            "button_label": "COMPRAR"
+            "button_label": "Comprar"
           }
         },
         "featured_item_PMJmAE": {
@@ -179,7 +179,7 @@
           "settings": {
             "product": "musera-sport-minifalda-deportiva",
             "title": "Product name",
-            "button_label": "COMPRAR"
+            "button_label": "Comprar"
           }
         }
       },
