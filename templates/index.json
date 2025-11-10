@@ -192,58 +192,18 @@
       "settings": {
         "title": "Productos destacados",
         "title_alignment": "center",
-        "color_scheme": "scheme-4"
+        "color_scheme": "scheme-3"
       }
     },
-    "image_with_text_Y3RJDH": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EDd9GQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Nuestra historia, tu fuerza",
-            "heading_size": "h2"
-          }
-        },
-        "text_PEpiCH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.<br/>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.<br/>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo.<br/>Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.<br/><br/>Bienvenido a Vera. Entrena real. Vive real.<br/><br/></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EDd9GQ",
-        "text_PEpiCH"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
+    "custom_image_with_text_3Q7aQk": {
+      "type": "custom-image-with-text",
+      "name": "Full Width Split Banner",
       "settings": {
-        "image": "shopify://shop_images/VERA_FITNESS_Slogan-removebg-preview.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_Fgg3yL": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify://shop_images/VERA_FITNESS_Slogan.png",
+        "image_position": "left",
+        "heading": "Nuestra historia, tu fuerza",
+        "text": "Vera Fitness nació con una idea clara: dejar atrás los filtros, las promesas vacías y los estándares inalcanzables.\n<br>“Vera” significa verdadera en italiano, y eso es lo que somos: un espacio para las personas reales, con cuerpos reales y metas reales.\n<br>Nuestra misión es ofrecerte productos funcionales, modernos y de calidad, que se adapten a tu ritmo, tu estilo y tu esfuerzo. Aquí no medimos el progreso en tallas o números, sino en constancia, confianza y bienestar.\n<br><br>Bienvenido a Vera. Entrena real. Vive real.",
+        "color_scheme": ""
       }
     }
   },
@@ -253,7 +213,6 @@
     "collection_list_HMhzrN",
     "image_banner_MYtrYj",
     "featured_top_products_LD9MLz",
-    "image_with_text_Y3RJDH",
-    "rich_text_Fgg3yL"
+    "custom_image_with_text_3Q7aQk"
   ]
 }
